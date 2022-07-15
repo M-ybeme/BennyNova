@@ -58,9 +58,13 @@
     </nav>
     <main class="content">
         <div class="container mt-5">
-            <h1>APP UI GOES HERE</h1>
-            <input type="text" id="message" placeholder="Enter a Message"/>
-            <button id="btnSubmit" class="btn btn-primary"> Display message</button>
+            <h1>Enter a Number</h1>
+            <input type="number" id="startValue" placeholder="Enter a Number" value = "1"/>
+            <input type="number" id="endValue" placeholder="Enter a Number" value= "10"/>
+            <button id="btnSubmit" class="btn btn-primary"> Display Number</button>
+            <div id="results">
+
+            </div>
         </div>
     </main>
 
@@ -98,6 +102,6 @@
     <!-- -----------JS style Link------- -->
     <script src="/js/site.js"></script>
     <script>
-        document.getElementById("btnSubmit").addEventListener("click",getValue2);
+        document.getElementById("btnSubmit").addEventListener("click",getNumbers);
     </script>
     </body>

@@ -1,5 +1,26 @@
-function getValue(message){
-    alert("Hello World!");
+function getNumbers() {
+    
+    
+    let startValue = document.getElementById("startValue").value;
+    let endValue = document.getElementById("endValue").value;
+
+
+    // ------parse numbers
+
+    startValue = parseInt(startValue);
+    endValue = paresInt(endValue);
+    let outNumber= 0;
+
+    if (Number.isInteger(startValue) && Number.isInteger(endValue)) {
+
+        for (let i = startValue; i <= endValue; i++) {
+        
+            outNumber = (outNumber + i);
+        }
+
+        document.getElementById("results").innerHTML = outNumber;
+    } else { alert('Please Enter Numbers') };
+
 }
 
 function getValue2()
@@ -10,7 +31,7 @@ function getValue2()
     swal.fire(
     {
         backdrop: false,
-        title: 'APP NAME',
+        title: 'Hundo',
         text: msg
         }
     )
