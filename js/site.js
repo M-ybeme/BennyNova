@@ -19,9 +19,13 @@ function getNumbers() {
         }
 
         document.getElementById("results").innerHTML = outNumber;
-    } else { alert('Please Enter Numbers') };
+    } else {
+        alert('Please Enter Numbers');
+    }
 
 }
+
+document.getElementbyID('results').innerHTML = outNumber;
 
 function getValue2()
 {
