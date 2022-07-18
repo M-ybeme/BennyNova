@@ -128,3 +128,15 @@ body{
 .checklist>li i{
     color:var(--mdm-primary-color);
 }
+
+.odd{
+    font-weight: bold;
+    font-size: 2rem;
+    color: blue;
+}
+
+.even{
+    font-weight: bold;
+    font-size:2rem;
+    color:red;
+}
