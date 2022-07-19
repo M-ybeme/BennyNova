@@ -136,7 +136,6 @@ body{
 }
 
 .even{
-    font-weight: bold;
     font-size:2rem;
     color:red;
 }
